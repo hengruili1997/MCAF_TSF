@@ -1,10 +1,11 @@
 # MCAF: Multi-domain Collaborative Analytics Framework for Time Series Forecasting
 
-The official PyTorch implementation for **MCAF** (Multi-domain Collaborative Analytics Framework).
+This repository provides the official PyTorch implementation of **MCAF** (Multi-domain Collaborative Analytics Framework).
 
-MCAF is a novel **Channel-Independent** multivariate time series forecasting model that leverages a hierarchical ternary decoupling mechanism. It decomposes time series into **Trend**, **Seasonal**, and **Residual** components and models them in their native domains (Time, Frequency, and Time-Frequency) to achieve state-of-the-art predictive accuracy and robustness.
+MCAF is a **channel-independent** model for multivariate time series forecasting. It adopts a hierarchical ternary decoupling strategy to decompose time series into **Trend**, **Seasonal**, and **Residual** components. Each component is modeled in its corresponding domain (Time, Frequency, and Time-Frequency), with the goal of improving predictive performance and robustness.
 
-> **Key Innovation:** Unlike traditional methods that struggle with non-stationary disturbances, MCAF introduces **DecompMAE** (a Time-Frequency Masked Autoencoder) and a **Complex Fusion** mechanism to seamlessly integrate multi-domain features.
+> **Key Idea:** To better address non-stationary disturbances that often challenge conventional approaches, MCAF incorporates **DecompMAE** (a Time-Frequency Masked Autoencoder) together with a **Complex Fusion** mechanism, enabling effective integration of multi-domain representations.
+
 
 ---
 
